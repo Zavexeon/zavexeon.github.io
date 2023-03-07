@@ -12,7 +12,7 @@
 }
 
 html { 
-    font-size: calc(4px + 1vmin);
+    font-size: calc(6px + 1vmin);
     scroll-behavior: smooth;
 }
 

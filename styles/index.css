@@ -54,7 +54,9 @@
     html { font-size: 14px; }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
+    #mini-navbar-root { display: inline; }
+    #mini-navbar-command { display: inline; }
     #full-navbar-root { display:none; }
     #full-navbar-command { display: none; }
 }
@@ -67,6 +69,8 @@
     }
     #mini-navbar-root { display: none; }
     #mini-navbar-command { display: none; }
+    #full-navbar-root { display: inline; }
+    #full-navbar-command { display: inline; }
     #main-navbar { font-size: 17.5px; }
 }
 

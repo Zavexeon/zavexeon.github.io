@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Zave's Site</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <meta property="og:title" content="zave/portfolio">
+        <meta property="og:description" content="zave's personal portfolio">
+        <meta property="og:image" content="./images/zave-portrait.png">
+
+        <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+        <link rel="stylesheet" href="./styles/index.css">
+        <link rel="stylesheet" href="./styles/navbar.css">
+    </head>
+    <body>
+        <div id="scripted-page">
+            <header id="main-navbar">
+                <span id="navbar-title">
+                    <span id="mini-navbar-root">~/</span><span id="full-navbar-root">zave/portfolio/</span><span id="current-location">home</span>>
+                </span>
+                <span id="navbar-command" class="navbar-start-hidden"><span id="full-navbar-command" class="navbar-command-text">&nbsp;navigate&nbsp;</span><span id="mini-navbar-command" class="navbar-command-text">&nbsp;nav&nbsp;</span></span>
+                <nav id="navbar-links" class="navbar-start-hidden">
+                    <ul>
+                        <li id="home-link">
+                            <a href="#home">home</a>
+                        </li>
+                        <li id="about-link">
+                            <a href="#about">about</a>
+                        </li>
+                        <li id="projects-link">
+                            <a href="#projects">projects</a>
+                        </li>
+                        <li id="contact-link">
+                            <a href="#contact">contact</a>
+                        </li>
+                    </ul>
+                </nav>
+                <span id="blinking-cursor">▯</span>
+            </header>
+            <script src="./scripts/navbar.js"></script>
+
+            <footer><span style="cursor: pointer;" onclick="window.location.replace('https://www.youtube.com/watch?v=dQw4w9WgXcQ')">©</span><time id="footer-year">2023</time> <span class="zave">zavexeon</span> ;)</footer>
+
+            <!-- the HTML below is a bit cursed because of the ASCII wordart!! :P -->
+            <div id="page-content">
+                    <section id="home" class="active-section">
+                        <span class="wordart-header type-contents"> _           
+(_)_ __ ___  
+| | '_ ` _ \ 
+| | | | | | |
+|_|_| |_| |_|</span><span id="zave-header" class="wordart-header type-contents"> ______ ___   _____ 
+|_  / _` \ \ / / _ \
+ / / (_| |\ V /  __/
+/___\__,_| \_/ \___|</span>
+                        <p class="type-contents">(fullstack node.js developer)</p>
+                        <nav class="link-list">
+                            <a class="type-contents" href="#about">[learn about me]</a>
+                            <a class="type-contents" href="#projects">[cool projects]</a>
+                            <a class="type-contents" href="#contact">[chat with me]</a>
+                        </nav>
+                        <noscript>
+                            <br>
+                            <p style="font-size: 0.7rem;">pssst.. this page is better with javascript enabled</p>
+                        </noscript>
+                    </section>
+                    <section id="about" class="active-section">
+                        <h1 class="wordart-header type-contents">       _                 _   
+  __ _| |__   ___  _   _| |_ 
+ / _` | '_ \ / _ \| | | | __|
+| (_| | |_) | (_) | |_| | |_ 
+ \__,_|_.__/ \___/ \__,_|\__|</h1>
+                        <br>
+                        <h2><span class="type-contents">hi, i'm</span> <span class="type-contents zave">zave</span></h2>
+                        <p class="about-paragraph type-contents">fullstack node.js developer with a passion for learning new technlogies</p>
+                        <p class="about-paragraph type-contents">5 years overall experience across node.js, python, ruby, HTML/CSS, and more</p>
+                        <p class="about-paragraph type-contents">eager to try new things and bring new concepts to life</p>
+                    </section>
+                    <section id="projects" class="active-section"> 
+                        <h1 class="wordart-header type-contents">                 _           _       
+ _ __  _ __ ___ (_) ___  ___| |_ ___ 
+| '_ \| '__/ _ \| |/ _ \/ __| __/ __|
+| |_) | | | (_) | |  __/ (__| |_\__ \
+| .__/|_|  \___// |\___|\___|\__|___/
+|_|           |__/</h1>
+                            <br>
+                            <table id="projects-table">
+                                <tr>
+                                    <td class="type-contents">lilac2</td>
+                                    <td class="type-contents">modular discord bot</td>
+                                    <td><a class="github-link type-contents" href="https://github.com/Lilac2" target="_blank">[github]</a></td>
+                                </tr>
+                                <tr>
+                                    <td class="type-contents">kim</td>
+                                    <td class="type-contents">animate rhythmatically</td>
+                                    <td><a class="github-link type-contents" href="https://github.com/Zavexeon/kim-1.0" target="_blank">[github]</a></td>
+                                </tr>
+                                <tr>
+                                    <td class="type-contents">site</td>
+                                    <td class="type-contents">my personal website</td>
+                                    <td><a class="github-link type-contents" href="https://github.com/Zavexeon/zavexeon.github.io" target="_blank">[github]</a></td>
+                                </tr>
+                            </table>
+                    </section>
+                    <section id="contact" class="active-section">
+                        <h1 class="wordart-header type-contents">                 _             _   
+  ___ ___  _ __ | |_ __ _  ___| |_ 
+ / __/ _ \| '_ \| __/ _` |/ __| __|
+| (_| (_) | | | | || (_| | (__| |_ 
+ \___\___/|_| |_|\__\__,_|\___|\__|</h1>
+                            <nav>
+                                <br>
+                                <table id="contact-info">
+                                    <tr>
+                                        <td><a class="type-contents bracket-link" href="mailto:zavexeon@pm.me" target="_blank" style="color: #6D4AFF">[email]</a></td>
+                                        <td class="type-contents">zavexeon@pm.me</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a class="type-contents" href="https://twitter.com/Zavexeon" target="_blank" style="color: #1D9BF0;">[twitter]</a></td>
+                                        <td class="type-contents">@Zavexeon</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="type-contents" style="color: #454FBF;">[discord]</td>
+                                        <td class="type-contents">Zavexeon#0899</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a class="type-contents github-link" href="https://github.com/Zavexeon" target="_blank">[github]</a></td>
+                                        <td class="type-contents">@Zavexeon</td>
+                                    </tr>
+                                </table>
+                            </nav>
+                    </section>
+                    <section id="404">
+                        <h1 class="wordart-header type-contents"> _  _    ___  _  _   
+| || |  / _ \| || |  
+| || |_| | | | || |_ 
+|__   _| |_| |__   _|
+   |_|  \___/   |_|</h1>
+                        <p class="type-contents">Huh, this isn't an official page on this site, why aren't you using the navbar?</p>
+                    </section>
+            </div>
+            <script src="./scripts/index.js"></script>
+        </div>
+    </body>
+</html>

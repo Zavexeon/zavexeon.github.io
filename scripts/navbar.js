@@ -52,7 +52,7 @@ const updateNavbarContent = () => {
 }
 
 window.addEventListener('hashchange', () => { 
-    if(navbarCommandElement.innerText.trim() !== 'navigate') window.location.reload()
+    if(document.getElementById('full-navbar-command').trim() !== 'navigate' || document.getElementById('mini-navbar-command').trim() !== 'nav') window.location.reload()
     updateNavbarContent()
 })
 

@@ -176,6 +176,16 @@ footer {
     text-align: center;
 }
 
+a.email-link {
+    color: #6D4AFF;
+    text-shadow: 0px 0px var(--default-text-glow-radius) #7c5ef2;
+}
+
+td.discord-info {
+    color: #454FBF;
+    text-shadow: 0px 0px var(--default-text-glow-radius) #545dc4;
+}
+
 a.github-link {
     color: white; 
     /* background-color: black; */

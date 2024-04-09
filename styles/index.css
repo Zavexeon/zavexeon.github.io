@@ -177,13 +177,7 @@ footer {
 }
 
 .email-link {
-    color: #6D4AFF;
-    text-shadow: 0px 0px var(--default-text-glow-radius) #6D4AFF;
-}
-
-.discord-info {
-    color: #454FBF !important;
-    text-shadow: 0px 0px var(--default-text-glow-radius) #545dc4 !important;
+    color: #6D4AFF; text-shadow: 0px 0px var(--default-text-glow-radius) #6D4AFF;
 }
 
 .github-link {
@@ -225,7 +219,8 @@ footer {
 #projects-table tr > td:first-child {
     color: #ff00ff;
     text-shadow: 0px 0px 0.15rem #ed7ced;
-    text-align: right;
+    text-align: right;    text-shadow: 0px 0px var(--default-text-glow-radius) #ffffff;
+
 }
 
 #projects-table tr > td:first-child::after {
@@ -235,6 +230,5 @@ footer {
 
 #projects-table tr > td:nth-child(2) {
     color: white;
-    text-shadow: 0px 0px var(--default-text-glow-radius) #ffffff;
     text-align: left;
 }

@@ -176,10 +176,6 @@ footer {
     text-align: center;
 }
 
-.email-link {
-    color: #6D4AFF; text-shadow: 0px 0px var(--default-text-glow-radius) #6D4AFF;
-}
-
 .github-link {
     color: white; 
     /* background-color: black; */

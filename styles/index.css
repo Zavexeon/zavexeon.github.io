@@ -178,12 +178,12 @@ footer {
 
 a.email-link {
     color: #6D4AFF;
-    text-shadow: 0px 0px var(--default-text-glow-radius) #7c5ef2;
+    text-shadow: 0px 0px var(--default-text-glow-radius) #6D4AFF;
 }
 
 td.discord-info {
-    color: #454FBF;
-    text-shadow: 0px 0px var(--default-text-glow-radius) #545dc4;
+    color: #454FBF !important;
+    text-shadow: 0px 0px var(--default-text-glow-radius) #545dc4 !important;
 }
 
 a.github-link {

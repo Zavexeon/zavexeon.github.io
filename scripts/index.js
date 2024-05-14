@@ -67,3 +67,5 @@ window.addEventListener('load', () => {
     document.getElementById('footer-year').textContent = new Date().getFullYear()
 })
 
+const emoticons = [':)', ';)', ':3', ':P', ';D', ':D', ';P']
+document.querySelector('#emoticon').innerText = emoticons[Math.floor(Math.random()) * emoticons.length]

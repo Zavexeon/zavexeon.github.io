@@ -68,4 +68,4 @@ window.addEventListener('load', () => {
 })
 
 const emoticons = [':)', ';)', ':3', ':P', ';D', ':D', ';P']
-document.querySelector('#emoticon').innerText = emoticons[Math.floor(Math.random()) * emoticons.length]
+document.querySelector('#emoticon').innerText = emoticons[Math.floor(Math.random() *  emoticons.length)]

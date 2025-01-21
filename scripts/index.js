@@ -7,7 +7,7 @@ var typewriter = (element, text, finishedCallback, speed=120) => {
     const textArray = text.split('')
     let index = 0
 
-    if (!window.chrome) speed *= 2 
+    if (!window.chrome) speed /= 2 
 
     clearInterval(typewriterInterval)
     var typewriterInterval = window.setInterval(() => {

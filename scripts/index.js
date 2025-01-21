@@ -19,7 +19,7 @@ var typewriter = (element, text, finishedCallback, speed=120) => {
         }
 
         index++
-    }, speed)  
+    }, speed / !!window.chrome ? 0 : 2)  
 }
 
 const typeWriterAll = () => {

@@ -7,8 +7,6 @@ var typewriter = (element, text, finishedCallback, speed=120) => {
     const textArray = text.split('')
     let index = 0
 
-    if (!window.chrome) speed /= 2.5 
-
     clearInterval(typewriterInterval)
     var typewriterInterval = window.setInterval(() => {
         if (textArray[index]) element.textContent += textArray[index] // weird bug where it infinitely prints undefined, seems like the if loop is being skipped somehow?
